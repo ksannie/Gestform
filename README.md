@@ -15,3 +15,10 @@ GestformParser.cs : This class contains a TryParse method that given a string, r
 Program.cs : The program is a console project, Program.cs ask for the user to enter a list of integers separated by commas, parse the input with GestformParser and run the algorithm with GestformRunner
 
 The two classes GestformRunner and GestformParser both have a test class to avoid any regression, in case someone find this code so great they want to extend it...
+
+## Run the project :
+To test the program, enter
+``` 
+dotnet run
+```
+in the Gestform Folder, or simply build and run the project in Visual Studio
